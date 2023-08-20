@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "/Users/ayushi/Documents/deep learning/git-work/ML-END-to-End-Project/nenv/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": false
+ }
+}
