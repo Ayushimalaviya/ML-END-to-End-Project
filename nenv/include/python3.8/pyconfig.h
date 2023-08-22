@@ -773,6 +773,9 @@
 /* Define if you have the 'prlimit' functions. */
 /* #undef HAVE_PRLIMIT */
 
+/* Define if you have the '_dyld_shared_cache_contains_path' function. */
+/* #undef HAVE_DYLD_SHARED_CACHE_CONTAINS_PATH */
+
 /* Define to 1 if you have the <process.h> header file. */
 /* #undef HAVE_PROCESS_H */
 
@@ -1026,7 +1029,7 @@
 /* Define to 1 if you have the <stdlib.h> header file. */
 #define HAVE_STDLIB_H 1
 
-/* Has stdatomic.h with atomic_int */
+/* Has stdatomic.h with atomic_int and atomic_uintptr_t */
 #define HAVE_STD_ATOMIC 1
 
 /* Define to 1 if you have the `strdup' function. */
@@ -1518,6 +1521,10 @@
 
 /* Define if WINDOW in curses.h offers a field _flags. */
 #define WINDOW_HAS_FLAGS 1
+
+/* Define if you want build the _decimal module using a coroutine-local rather
+   than a thread-local context */
+#define WITH_DECIMAL_CONTEXTVAR 1
 
 /* Define if you want documentation strings in extension modules */
 #define WITH_DOC_STRINGS 1
