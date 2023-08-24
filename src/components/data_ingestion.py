@@ -6,6 +6,7 @@ import pandas as pd
 
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
+from src.components.data_transformation import dataTransformation, dataTransformationConfig
 
 @dataclass
 class DataIngestionConfig:
@@ -21,6 +22,11 @@ class DataIngestion:
         logging.info("Enter the data ingestion method or component")
         try:
             df=pd.read_csv('notebook/data/StudentsPerformance.csv')
+
+            new_column_names = {'race/ethnicity':'race','parental level of education':'parental_level_education',
+                    'test preparation course':'test_preparation_course','math score':'math_score',
+                    'reading score':'reading_score','writing score':'writing_score'}
+            df.rename(columns=new_column_names, inplace=True)
             logging.info('Read the dataset as dataframe')
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path), exist_ok=True)
@@ -44,7 +50,10 @@ class DataIngestion:
         
 if __name__=="__main__":
     obj=DataIngestion()
-    obj.initiate_data_ingestion()
+    train_data,test_data=obj.initiate_data_ingestion()
+
+    data_transformation=dataTransformation()
+    data_transformation.initiate_data_transformation(train_data,test_data)
 
 
 
