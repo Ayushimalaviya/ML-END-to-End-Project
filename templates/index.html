@@ -1,1 +1,140 @@
-<h1>Welcome to the homepage</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    
+    <style>
+body, h1, h2, p {
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 80px; 
+
+}
+#app h1,
+#app footer {
+  color: white;
+}
+footer p {
+  font-size: 0.8rem;
+  color: white; /* Set font color to white */
+  margin: 10px 0;
+}
+a{
+  font-size: 0.8rem;
+  color: pink; /* Set font color to white */
+  margin: 10px 0;
+}
+#app {
+  background-image: url('static/images/images.jpeg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  height: 75vh;
+  text-align: center;
+  width: 90%;
+  padding-left: 70px; 
+  padding-right: 20px; 
+}
+
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+.container {
+  width: 50%; 
+  margin: 0 auto; 
+  padding: 10px; 
+}
+
+.container p {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 2px 0;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #666;
+  margin: 10px 0;
+}
+button#goToHomepage {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+button#goToHomepage a {
+  text-decoration: none;
+  color: #fff;
+}
+
+button#goToHomepage:hover {
+  background-color: #0056b3;
+}
+
+        
+    </style>
+</head>
+<body id="app" >
+    <h1>Welcome to My ML app</h1>
+    <div class="flex-container">
+        <main>
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    Hi folks! My name is Ayushi Malaviya. I am a passionate data scientist and I love to play with data.
+                </p>
+            </section>
+            <section>
+                <h2>My App</h2>
+                <div class="container">
+                <p>
+                    An end-to-end machine learning pipeline is developed to predict students' math performance using seven independent variables. Exploratory analysis revealed that students' performance correlated with race/ethnicity, lunch type, and parental education background. Additionally, it was noted that females outperformed males. While enrollment in a test preparation course showed limited correlation, completing the course proved beneficial for students.
+                </p>
+                </div>
+            </section>
+            <section>
+                <button id="goToHomepage"><a href="/predictdata">Predict Student Performance</a></button>
+
+            </section>
+
+        </main>
+</div>
+<footer>
+    <p>Connect with me at: <a href="https://www.linkedin.com/in/ayushi-malaviya-681551149/">https://www.linkedin.com/in/ayushi-malaviya-681551149/</a></p>
+    
+</footer>
+</body>
+</html>
