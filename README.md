@@ -1,7 +1,7 @@
 # Student Performance Prediction - Ayushi Malaviya
 ________________________________________________________________________
 
-##### Introduction about Variable:
+### Introduction about Variable:
 
 __The dataset__ The goal is to predict the maths score for the student (Regression Analysis). 
 
@@ -15,7 +15,7 @@ __test preparation course__: Have students taken the preparation course or not?
 __reading score__: marks obtained in reading out of 100 marks.
 __writing score__: marks obtained in writing out of 100 marks.
 
-##### Target Variable:
+### Target Variable:
 __Maths score__: marks obtained in maths out of 100 marks.
 
 __Dataset Source Link__: [https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977]
@@ -25,7 +25,7 @@ It is observed that the categorical variables 'gender', 'race/ethnicity, 'lunch'
 ### AZURE Deployment LINK:
 _____________________________________________________________________________
 
-###### AZURE WEB APP LINK: [https://studentperformancepredicition.azurewebsites.net/]
+##### AZURE WEB APP LINK: [https://studentperformancepredicition.azurewebsites.net/]
 
 ### ScreenShots of UI:
 ______________________________________________________________________________
