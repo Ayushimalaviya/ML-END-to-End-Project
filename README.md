@@ -1,7 +1,8 @@
 # Student Performance Prediction - Ayushi Malaviya
 ________________________________________________________________________
 
-### Introduction about Variable:
+## Introduction about Variable:
+________________________________________________________________________
 
 __The dataset__ goal is to predict the maths score for the student (Regression Analysis). 
 
@@ -22,19 +23,19 @@ __Dataset Source Link__: [https://www.kaggle.com/datasets/spscientist/students-p
 
 It is observed that the categorical variables 'gender', 'race/ethnicity, 'lunch', 'test preparation course', and 'Parental level of education' are ordinal in nature.
 
-### AZURE Deployment LINK:
+## AZURE Deployment LINK:
 _____________________________________________________________________________
 
 ##### AZURE WEB APP LINK: [https://studentperformancepredicition.azurewebsites.net/]
 
-### ScreenShots of UI:
+## ScreenShots of UI:
 ______________________________________________________________________________
 
 <img width="1420" alt="image" src="https://github.com/Ayushimalaviya/ML-END-to-End-Project/assets/61611744/2303fc19-bfbf-4fd6-bbd0-d8c84ab97271">
 
 <img width="1420" alt="image" src="https://github.com/Ayushimalaviya/ML-END-to-End-Project/assets/61611744/2451d921-a06c-4969-9553-1b2fa3d8a8a5">
 
-### Approach for the project
+## Approach for the project
 ______________________________________________________________________________
 
 #### 1. Data Ingestion
