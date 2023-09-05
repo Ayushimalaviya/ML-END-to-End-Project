@@ -3,7 +3,7 @@ ________________________________________________________________________
 
 ### Introduction about Variable:
 
-__The dataset__ The goal is to predict the maths score for the student (Regression Analysis). 
+__The dataset__ goal is to predict the maths score for the student (Regression Analysis). 
 
 __There are 7 independent variables__: 
 
