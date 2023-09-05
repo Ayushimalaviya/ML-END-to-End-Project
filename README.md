@@ -7,13 +7,13 @@ __The dataset__ goal is to predict the maths score for the student (Regression A
 
 __There are 7 independent variables__: 
 
-__Gender__: gender of the students.
-__Race/ethnicity__: race/ethnicity of the students.
-__Parental level of education__:  parents' educational background
-__lunch__:  Type of lunch students consume.
-__test preparation course__: Have students taken the preparation course or not?
-__reading score__: marks obtained in reading out of 100 marks.
-__writing score__: marks obtained in writing out of 100 marks.
+  - __Gender__: gender of the students.
+  - __Race/ethnicity__: race/ethnicity of the students.
+  - __Parental level of education__:  parents' educational background
+  - __lunch__:  Type of lunch students consume.
+  - __test preparation course__: Have students take the preparation course or not?
+  - __reading score__: marks obtained in reading out of 100 marks.
+  - __writing score__: marks obtained in writing out of 100 marks.
 
 ### Target Variable:
 __Maths score__: marks obtained in maths out of 100 marks.
