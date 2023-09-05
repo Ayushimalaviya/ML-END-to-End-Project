@@ -66,11 +66,11 @@ ______________________________________________________________________________
 
 #### 6. Exploratory Data Analysis Notebook
 
-- [Link to EDA Notebook](#) (Replace with the actual link)
+- Link : [https://github.com/Ayushimalaviya/ML-END-to-End-Project/blob/main/notebook/EDA_Student_Performance.ipynb]
 
 #### 7. Model Training Approach Notebook
 
-- [Link to Model Training Notebook](#) (Replace with the actual link)
+- Link : [https://github.com/Ayushimalaviya/ML-END-to-End-Project/blob/main/notebook/Model_training.ipynb]
 
 
 
