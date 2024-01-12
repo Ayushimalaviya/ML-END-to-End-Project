@@ -122,12 +122,12 @@ celerybeat.pid
 # Environments
 .artifacts
 .env
-.venv
+.nenv
 env/
 nenv/
 ENV/
 env.bak/
-venv.bak/
+nenv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -149,6 +149,7 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+.ebextensions/
 
 # Cython debug symbols
 cython_debug/
